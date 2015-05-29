@@ -1,0 +1,29 @@
+body{
+	background: blue;
+}
+
+.parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
+
+.child {
+  width: 50%;  /* Or whatever */
+  height: 100%; /* Or whatever */
+  margin: auto;  /* Magic! */
+  border: 1px solid red;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  &:first-child{
+  	margin-left: 0;
+  }
+  &:last-child{
+  	margin-right: 0;
+  }
+}
+
+
+@page {
+  size: letter landscape;
+  margin: 20pt;
+}
