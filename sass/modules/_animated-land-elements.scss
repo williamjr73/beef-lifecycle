@@ -1,0 +1,84 @@
+.cow-left-1 img {
+	position: absolute;
+	top: 7%;
+	left: 2%;
+	width: 6.5%;
+}
+
+.cow-right-1 img {
+	position: absolute;
+	top: 13%;
+	right: 2%;
+	width: 25%;
+}
+
+.cow-center-1 img {
+	position: absolute;
+	top: 29%;
+	left: 41%;
+	width: 25%;
+}
+
+.cows-feedyard img {
+	position: absolute;
+	top: 37%;
+	left: 25%;
+	width: 40%;
+}
+
+.grass-1 img {
+	position: absolute;
+	top: 38.5%;
+	left: 3%;
+	width: 8%;
+}
+
+.grass-2 img {
+	position: absolute;
+	top: 18%;
+	left: 54%;
+	width: 6.5%;
+}
+
+.truck {
+	width: 55%;
+	position: absolute;
+	bottom: 43.5%;
+	left: 11%;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-ms-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+	transition: all 3s ease-in-out;
+	-moz-transform: translateX(-800px);
+	-webkit-transform: translateX(-800px);
+	-o-transform: translateX(-800px);
+	-ms-transform: translateX(-800px);
+	transform: translateX(-800px);
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.truck.come-in {
+	-moz-transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.boats {
+	width: 22.5%;
+	position: absolute;
+	top: 56.3%;
+	right: 4%;
+	height: auto;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

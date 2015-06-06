@@ -1,6 +1,26 @@
 body {
 	margin: 0;
-	background: #72B63D url(../img/bg.jpg) no-repeat top center;
+	/* background: #72B63D url(../img/bg.jpg) no-repeat top center; */
+	background: #72B63D;
 	background-size: 1024px;
 	text-align: center;
+}
+
+#container {
+	background: #c7e7de;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+
+	.wrap {
+		position: relative;
+		overflow: hidden;
+	}
+
+	img.bg-scene {
+		position: relative;
+		width: 100%;
+		max-width: 1024px;
+	}
+
 }

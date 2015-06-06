@@ -2,26 +2,238 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title Here</title>
+	<title>The Beef Lifecycle</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+  <div id="container">
+    <div class="wrap clearfix">
 
-    <h1 class="logo">The Beef Lifecycle</h1>
+      <div class="clouds">
+          <div class="x1">
+              <div class="cloud"></div>
+          </div>
 
-       <!-- Small modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Cow-Calf</button>
+          <div class="x2">
+              <div class="cloud"></div>
+          </div>
 
-    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.
+          <div class="x3">
+              <div class="cloud"></div>
+          </div>
+
+          <div class="x4">
+              <div class="cloud"></div>
+          </div>
+
+          <div class="x5">
+              <div class="cloud"></div>
+          </div>
+      </div>
+
+      <h1 class="logo">The Beef Lifecycle</h1>
+
+      <img class="bg-scene" src="../img/bg-scene.png" />
+
+      <div id="animated-land-elements">
+        <div class="cow-left-1">
+          <img src="../img/cow-left-1.gif" />
+        </div>
+        <div class="cow-right-1">
+          <img src="../img/cow-right-1c.gif" />
+        </div>
+        <div class="cow-center-1">
+          <img src="../img/cow-center-1.gif" />
+        </div>
+        <div class="cows-feedyard">
+          <img src="../img/cows-feedyard.gif" />
+        </div>
+        <div class="grass-1">
+          <img src="../img/grass-1.gif" />
+        </div>
+        <div class="grass-2">
+          <img src="../img/grass-2.gif" />
+        </div>
+        <div class="truck module">
+          <img src="img/truck.png" />
+        </div>
+        <div class="boats">
+          <img src="img/boats.gif" />
         </div>
       </div>
+
+      <div id="popup-buttons">
+        <button type="button" class="btn btn-primary btn-cow-calf" data-toggle="modal" data-target=".popup-cow-calf">Cow-Calf</button>
+        <button type="button" class="btn btn-primary btn-weaning" data-toggle="modal" data-target=".popup-weaning">Weaning</button>
+        <button type="button" class="btn btn-primary btn-livestock-auction" data-toggle="modal" data-target=".popup-livestock-auction">Livestock Auction Markets</button>
+        <button type="button" class="btn btn-primary btn-stockers-backgrounders" data-toggle="modal" data-target=".popup-stockers-backgrounders">Stockers & Backgrounders</button>
+        <button type="button" class="btn btn-primary btn-feedyard" data-toggle="modal" data-target=".popup-feedyard">Feedyard</button>
+        <button type="button" class="btn btn-primary btn-packing-plant" data-toggle="modal" data-target=".popup-packing-plant">Packing Plant</button>
+        <button type="button" class="btn btn-primary btn-supermarkets-restaurants" data-toggle="modal" data-target=".popup-supermarkets-restaurants">Supermarkets & Restaurants</button>
+        <button type="button" class="btn btn-primary btn-beef-export" data-toggle="modal" data-target=".popup-beef-export">Beef Export</button>
+        <button type="button" class="btn btn-primary btn-nutrition" data-toggle="modal" data-target=".popup-nutrition">Nutrition</button>
+      </div>
+
+      <div id="popup-modals">
+
+        <div class="modal fade bs-example-modal-sm popup-cow-calf" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-cow-calf.png" alt="Cow-Calf" />
+              <p>Cows are bred and calves are born and raised every year on cow-calf farms and ranches, spending time grazing on grass pastures within sight of their mothers.</p>
+              <div class="video-wrap">
+                <video width="100%" controls>
+                  <source src="videos/BeefLifeCycle_CowCalf.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <img class="video-overlay" src="img/overlay-cow-calf.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-weaning" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-weaning.png" alt="Weaning" />
+              <p>Beef calves are weaned away from their mothers between 6-8 months of age. At this point, calves either stay on a cow-calf ranch continuing a diet of grass, called grass finishing, or begin a balanced diet that includes grains and eventually go to a feedyard to be grain finished.</p>
+              <div class="blog-excerpt clearfix">
+                <img class="blog-img" src="img/blog-weaning.jpg" />
+                <div class="blog-content">
+                  <img class="blog-title" src="img/blog-title-weaning.png" alt="Blog: Weaning Time" />
+                  <p class="date">Tuesday, November 8, 2011</p>
+                  <p>Rounding up the cow herd takes lots of people! Unfortunately, I get the least favorite job--calling the cows. I drive the pickup that leads them to the catch pen...<a href="http://www.google.com" target="_blank"><img class="blog-more" src="img/blog-more.png" alt="Read More" /></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-livestock-auction" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-livestock-auction.png" alt="Livestock Auction Markets" />
+              <p>Many calves leave the farm or ranch where they were born and are sold at livestock auction markets to stockers and backgrounders between 6-12 months of age.</p>
+              <div class="video-wrap">
+                <video width="100%" controls>
+                  <source src="videos/BeefLifeCycle_AuctionMarket.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <img class="video-overlay" src="img/overlay-livestock-auction.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-stockers-backgrounders" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-stockers-backgrounders.png" alt="Stockers & Backgrounders" />
+              <p>Between 6-12 months of age cattle spend time at stocker and backgrounder farms and ranches where they graze on a variety of pastures. Here they gain weight and convert forage and grass into lean protein.</p>
+              <div class="blog-excerpt clearfix">
+                <img class="blog-img" src="img/blog-stockers-backgrounders.jpg" />
+                <div class="blog-content">
+                  <img class="blog-title" src="img/blog-title-stockers-backgrounders.png" alt="Garrett Foote" />
+                  <p><strong>What is a backgrounder?</strong><br>
+                    Backgrounders also know as stockers, raise cattle from when they are weaned off of their mothers’ milk and then send them to the feedyard when they reach a desired...<a href="http://www.google.com" target="_blank"><img class="blog-more" src="img/blog-more.png" alt="Read More" /></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-feedyard" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-feedyard.png" alt="Feedyard" />
+              <p>Cattle spend 4-6 months at a feedyard being fed a scientifically-balanced diet and receiving daily care. Some spend the rest of their lives on a pasture being grass finished.</p>
+              <div class="video-wrap">
+                <video width="100%" controls>
+                  <source src="videos/BeefLifeCycle_Feedyard.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <img class="video-overlay" src="img/overlay-feedyard.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-packing-plant" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <img class="ptitle" src="img/ptitle-packing-plant.png" alt="Packing Plant" />
+              <p>Cattle are sent to a packer/processing facility to be slaughtered and processed then distributed to supermarket retailers and restaurants.</p>
+              <div class="video-wrap">
+                <video width="100%" controls>
+                  <source src="videos/BeefLifeCycle_PackingPlant.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <img class="video-overlay" src="img/overlay-packing-plant.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-supermarkets-restaurants" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="before-ptitle">Retailers and foodservice operators sell beef in</div>
+              <img class="ptitle" src="img/ptitle-supermarkets-restaurants.png" alt="Supermarkets & Restaurants" />
+              <div class="banner-image"><img src="img/banner-supermarkets-restaurants.jpg" alt="Welcome to the Interactive Butcher Counter" /></div>
+              <p class="p-left">Wonder what kind of cut you’ll need at the meat counter? <a href="http://www.google.com" target="_blank"><img src="img/click-here.png" alt="Click here to find out," /></a> as well as learn how to prepare beef with ease.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-beef-export" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="before-ptitle">Due to strong demand for U.S. beef, beef is</div>
+              <img class="ptitle" src="img/ptitle-beef-export.png" alt="Beef Export" />
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade bs-example-modal-sm popup-nutrition" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="before-ptitle">Beef helps nourish the bodies of</div>
+              <img class="ptitle" src="img/ptitle-nutrition.png" alt="Nutrition" />
+              <p>by providing 10 essential nutrients.</p>
+              <div class="banner-image"><a href="http://www.google.com" target="_blank"><img src="img/banner-nutrition.jpg" alt="Beef's Big 10 Poster" /></a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="clouds footer-clouds">
+        <div class="x1">
+          <div class="cloud"></div>
+        </div>
+        <div class="x2">
+          <div class="cloud"></div>
+        </div>
+        <div class="x3">
+          <div class="cloud"></div>
+        </div>
+        <div class="x4">
+          <div class="cloud"></div>
+        </div>
+        <div class="x5">
+          <div class="cloud"></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <img class="logo-footer" src="img/logo-footer.jpg" />
+      </div>
+
     </div>
+  </div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/app.min.js"></script>

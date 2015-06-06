@@ -1,18 +1,122 @@
-.btn-primary {
-  color: #2e808c;
-  background-color: #fff;
-  border-color: #bababa;
-  border-width: 4px;
-  padding: 8px 12px;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-}
+#popup-buttons {
+  .btn-primary,
+  .btn-primary.focus,
+  .btn-primary:focus,
+  .btn-primary:active:focus {
+    color: #2e808c;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    outline: none;
+    border: 0;
+    padding: 0;
+  }
 
-.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #2e808c;
-  border-color: #2e808c;
+  .btn-primary.active,
+  .btn-primary:active,
+  .btn-primary:hover,
+  .open>.dropdown-toggle.btn-primary {
+    color: #2e808c;
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: 0 0 20px 2px rgba(255,252,255,0.7);
+    box-shadow: 0 0 20px 2px rgba(255,252,255,0.7);
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    background-size: 100%;
+    border: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 157px;
+    height: 56px;
+    background: transparent url(../img/btn-cow-calf.png) top center no-repeat;
+  }
+
+  .btn-cow-calf {
+    top: 10.3%;
+    left: 45%;
+    width: 157px;
+    height: 56px;
+    background: url(../img/btn-cow-calf.png) top center no-repeat;
+  }
+
+  .btn-weaning {
+    top: 18.2%;
+    left: 24.5%;
+    width: 157px;
+    height: 56px;
+    background: url(../img/btn-weaning.png) top center no-repeat;
+  }
+
+  .btn-livestock-auction {
+    top: 24%;
+    left: 52%;
+    width: 181px;
+    height: 94px;
+    background: url(../img/btn-livestock.png) top center no-repeat;
+  }
+
+  .btn-stockers-backgrounders {
+    top: 33%;
+    left: 29%;
+    width: 245px;
+    height: 79px;
+    background: url(../img/btn-stockers.png) top center no-repeat;
+  }
+
+  .btn-feedyard {
+    top: 39%;
+    left: 13%;
+    width: 164px;
+    height: 56px;
+    background: url(../img/btn-feedyard.png) top center no-repeat;
+  }
+
+  .btn-packing-plant {
+    top: 53.78%;
+    left: 76%;
+    width: 231px;
+    height: 56px;
+    background: url(../img/btn-packing.png) top center no-repeat;
+  }
+
+  .btn-supermarkets-restaurants {
+    top: 62.5%;
+    left: 12%;
+    width: 431px;
+    height: 56px;
+    background: url(../img/btn-supermarkets.png) top center no-repeat;
+  }
+
+  .btn-beef-export {
+    top: 74%;
+    left: 70%;
+    width: 209px;
+    height: 56px;
+    background: url(../img/btn-beef-export.png) top center no-repeat;
+  }
+
+  .btn-nutrition {
+    top: 86%;
+    left: 41%;
+    width: 182px;
+    height: 56px;
+    background: url(../img/btn-nutrition.png) top center no-repeat;
+  }
+
 }
