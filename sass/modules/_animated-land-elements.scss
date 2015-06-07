@@ -82,3 +82,17 @@
 		height: auto;
 	}
 }
+
+.globe {
+	width: 34.5%;
+	position: absolute;
+	top: 72%;
+	right: 24%;
+	height: auto;
+	z-index: 2;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

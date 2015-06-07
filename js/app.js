@@ -88,23 +88,11 @@ jQuery(document).ready(function($) {
 		$('video').get(0).pause();
 	});
 
-jQuery('.modal').on('hidden.bs.modal', function (e) {
-  // do something...
-  jQuery('.modal video').attr("src", jQuery(".modal video").attr("src"));
-	$('video').get(0).pause();
-});
-
-	/*$('.popup-cow-calf').on('hide', function () {
-	    $('.popup-cow-calf video').addClass('WORKING');
-	});*/
-
-$('.popup-cow-calf').on('remove', function(e) {
-	console.log(e);
-	$('video').get(0).pause();
-});
-
-$(".popup-cow-calf").bind("hide", function() {
-    alert("hide triggered");
-});
+	jQuery('.modal').on('hidden.bs.modal', function (e) {
+		jQuery('.modal video').attr("src", jQuery(".modal video").attr("src"));
+		$('video').each(function( index ) {
+			$(this).get(0).pause();
+		});
+	});
 
 });
